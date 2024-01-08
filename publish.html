@@ -567,7 +567,7 @@
 
         function LoadPublishAddons() {
             var addonList = document.getElementById("addonList");
-            var curList = [{"name":"JTools","online":"false","multiUser":"false","url":"https://github.com/keylinjay/wps-addon/releases/download/untagged-461a8462edacf15c162e/JTools.7z","version":"1.0.0"},{"name":"jtools","addonType":"wps","online":"true","multiUser":"false","url":"https://jtools.v2mk.cn/"}];
+            var curList = [{"name":"jtools","addonType":"et","online":"true","multiUser":"false","url":"https://jtools.v2mk.cn/"}];
             curList.forEach(function (element) {
                 var param = JSON.stringify(element).replace("\"", "\'");
                 UpdateElement(element, 'enable')
